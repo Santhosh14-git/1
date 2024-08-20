@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /*!
 =========================================================
 * JohnDoe Landing page
@@ -11515,7 +11515,7 @@ pre .code {
   background-attachment: fixed;
   color: #fff;
 }
-
+ 
 .header .container {
   position: relative;
   height: 100%;
@@ -11556,6 +11556,10 @@ pre .code {
   .header {
     height: 500px;
     min-height: 500px;
+    background-size: cover;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),   url(../imgs/sandy.png);
+     
+    overflow: hidden;
   }
   .header .social-icons {
     margin: auto;
